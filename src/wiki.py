@@ -12,10 +12,10 @@ class Wiki:
         self.osc_server = osc.Server(host='0.0.0.0', port=osc_server_port, callback=self.osc_server_message)
         self.osc_server.run(non_blocking=True)
         
-        self.osc_client.send("/wiki/ready")
-        
         wikipedia.set_lang("fr")
     
+        self.osc_client.send("/wiki/ready")
+        
         print("Wiki Ready")
         
     def osc_server_message(self, message):
