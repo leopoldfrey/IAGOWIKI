@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 99.0, 173.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -43,9 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.0, 356.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 498.0, 352.0, 0.0, 0.0 ],
-					"style" : "",
+					"patching_rect" : [ 208.0, 90.0, 47.0, 22.0 ],
 					"text" : "morale"
 				}
 
@@ -57,8 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 122.0, 71.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 196.0, 27.0, 71.0, 22.0 ],
 					"text" : "convolution"
 				}
 
@@ -70,8 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 455.0, 159.0, 57.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 128.0, 27.0, 57.0, 22.0 ],
 					"text" : "intégrale"
 				}
 
@@ -83,8 +80,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 329.0, 207.0, 24.0, 24.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 106.5, 301.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -95,8 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.0, 181.0, 37.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 85.0, 27.0, 37.0, 22.0 ],
 					"text" : "objet"
 				}
 
@@ -108,8 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 533.0, 216.0, 45.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 186.0, 60.0, 45.0, 22.0 ],
 					"text" : "amour"
 				}
 
@@ -121,22 +116,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 216.0, 47.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 31.0, 27.0, 47.0, 22.0 ],
 					"text" : "guitare"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 257.0, 230.75, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "tosymbol"
 				}
 
 			}
@@ -147,8 +128,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.0, 251.0, 79.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 92.0, 60.0, 79.0, 22.0 ],
 					"text" : "kuala lumpur"
 				}
 
@@ -160,8 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 251.0, 59.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 19.0, 60.0, 59.0, 22.0 ],
 					"text" : "flamenco"
 				}
 
@@ -173,48 +152,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.0, 292.0, 88.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 39.0, 90.0, 88.0, 22.0 ],
 					"text" : "Albert Einstein"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 272.0, 77.0, 22.0 ],
-					"style" : "",
-					"text" : "prepend say"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 246.0, 332.0, 45.0, 22.0 ],
-					"style" : "",
-					"text" : "h.shell"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.0, 76.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "set"
 				}
 
 			}
@@ -225,8 +164,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 257.0, 167.5, 170.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 31.0, 269.0, 170.0, 22.0 ],
 					"text" : "route /wiki/result /wiki/noresult"
 				}
 
@@ -238,8 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 125.5, 73.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 31.0, 239.5, 73.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -251,23 +188,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 332.0, 59.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 81.0, 130.0, 59.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-6",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 408.0, 583.0, 49.0 ],
-					"style" : "",
-					"text" : "La morale du latin moralis relatif aux mœurs est une notion qui désigne l'ensemble des règles ou préceptes obligations ou interdictions relatifs à la conformation de laction humaine aux mœurs et aux usages d'une société donnée."
+					"patching_rect" : [ 31.0, 345.0, 583.0, 22.0 ]
 				}
 
 			}
@@ -278,8 +212,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 82.0, 99.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 31.0, 211.0, 99.0, 22.0 ],
 					"text" : "udpreceive 7078"
 				}
 
@@ -291,8 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 292.0, 66.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 138.0, 90.0, 66.0, 22.0 ],
 					"text" : "Tom Waits"
 				}
 
@@ -303,22 +235,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 339.0, 373.0, 137.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 85.0, 165.0, 137.0, 22.0 ],
 					"text" : "udpsend localhost 7077"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 310.0, 285.0, 50.0, 22.0 ],
-					"style" : "",
-					"text" : "killsay"
 				}
 
 			}
@@ -339,14 +257,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"order" : 1,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-15", 1 ]
 				}
@@ -355,15 +265,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"order" : 0,
+					"midpoints" : [ 40.5, 333.25, 604.5, 333.25 ],
 					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -371,13 +274,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -399,20 +295,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -465,19 +347,8 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "h.shell.mxo",
-				"type" : "iLaX"
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
